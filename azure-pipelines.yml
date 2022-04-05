@@ -52,3 +52,5 @@ steps:
       args = parser.parse_args()
       print ('Hello ', args.world)
     arguments: --world Venuss
+- script: python -m pip install --upgrade pip setuptools wheel
+  displayName: 'Install tools'
